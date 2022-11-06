@@ -111,7 +111,7 @@
   width: calc(100vw - 210px);
   height: 50px;
   background-color: #9fa9ff;
-  margin: 0 20px 10px;
+  margin: 0 20px 5px;
   text-align: center;
   line-height: 50px;
 }
@@ -119,8 +119,9 @@
   width: calc(100vw - 210px);
   background-color: #9fa9ff;
   margin: 0 20px 10px;
-  line-height: 50px;
-  padding: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 .h1-white {
   font-family: "PT Serif", serif;
@@ -130,7 +131,14 @@
 }
 .h2-white {
   font-family: "PT Serif", serif;
-  font-size: 14px;
-  text-decoration: none;
+  font-size: 15px;
   color: #fff;
+}
+
+.ul-temas {
+  margin: 10px 100px;
+}
+.ul-temas li {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
 }
