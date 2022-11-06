@@ -84,39 +84,25 @@
   background-color: #7a87ff;
 }
 
-.title-test-aprendizaje, .result {
-  background-color: #9fa9ff;
-  text-transform: uppercase;
-  text-align: center;
-  width: calc(100vw - 210px);
-  padding: 15px;
-  margin: 15px 20px;
-}
-
-.question {
-  background-color: #9fa9ff;
-  text-align: center;
-  width: calc(100vw - 210px);
-  padding: 15px 15px;
-  margin: 10px 20px;
-}
-
-.alternatives {
+.content-courses {
+  width: 800px;
+  padding-top: 50px;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
-.alternative {
-  display: flex;
-  width: 200px;
-}
-
-.button {
-  color: #fff;
-  background-color:  #4256ff;
-  border: none;
-  padding: 15px 15px;
-  margin: 10px 50px;
-  cursor: pointer;
+.item {
+  background: #9fa9ff;
+  border: 2px solid #7a87ff;
+  width: 230px;
+  height: 60px;
+  margin: 20px 70px;
+  border-radius: 15px;
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
 }
