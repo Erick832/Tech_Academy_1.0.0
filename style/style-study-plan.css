@@ -55,6 +55,12 @@
   text-decoration: none;
   color: #fff;
 }
+.a-black {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
 
 .content {
   margin-top: 5px;
@@ -123,16 +129,22 @@
   display: flex;
   justify-content: space-between;
 }
+.div-plan {
+  width: calc(100vw - 210px);
+  background-color: #9fa9ff;
+  margin: 0 20px 10px;
+  padding: 10px;
+}
 .h1-white {
   font-family: "PT Serif", serif;
   font-size: 28px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 .h2-white {
   font-family: "PT Serif", serif;
   font-size: 15px;
-  color: #fff;
+  color: #000;
 }
 
 .ul-temas {

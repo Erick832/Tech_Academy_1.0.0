@@ -55,6 +55,12 @@
   text-decoration: none;
   color: #fff;
 }
+.a-black {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
 
 .content {
   margin-top: 5px;

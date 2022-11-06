@@ -55,6 +55,12 @@
   text-decoration: none;
   color: #fff;
 }
+.a-black {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
 
 .content {
   margin-top: 5px;
@@ -66,7 +72,7 @@
 .sidebar {
   background-color: #9fa9ff;
   width: 210px;
-  height: 1320px;
+  height: 100vw;
 }
 
 .ul-sidebar {
@@ -94,26 +100,21 @@
   text-align: center;
   line-height: 50px;
 }
-.div-clases {
+.div-material-aprendizaje {
   width: 100%;
 }
 .h1-white {
   font-family: "PT Serif", serif;
   font-size: 28px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
-.a-black {
-  font-family: "PT Serif", serif;
-  font-size: 14px;
-  text-decoration: none;
-  color: #000;
-}
+
 .h2-white {
   font-family: "PT Serif", serif;
   font-size: 14px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .video-clases {
   margin: 0 20px;
@@ -179,42 +180,57 @@
   padding-left: 10px;
 }
 
-/* test */
-
-.title-test-aprendizaje,
-.result {
-  background-color: #9fa9ff;
-  text-transform: uppercase;
-  text-align: center;
-  width: calc(100vw - 210px);
-  padding: 15px;
-  margin: 15px 20px;
+/*Elementos para US09*/
+.img-eq {
+  height: 350px;
+  margin: 0 20px;
+  border: 4px solid #9fa9ff;
 }
-
-.question {
-  background-color: #9fa9ff;
-  text-align: center;
-  width: calc(100vw - 210px);
-  padding: 15px 15px;
-  margin: 10px 20px;
+.img-carp {
+  height: 120px;
 }
-
-.alternatives {
+.img-newton {
+  width: 590px;
+  height: 500px;
+  margin: 0 20px;
+  border: 4px solid #9fa9ff;
+}
+.div-material-1 {
+  width: calc(100vw - 210px);
+  height: 120px;
+  background-color: #9fa9ff;
+  margin: 0 20px;
+  margin-top: 10px;
+  /*text-align: center;*/
+  line-height: 20px;
+}
+.div-material-2 {
+  width: 650px;
+  height: 500px;
+  background-color: #9fa9ff;
+  margin: 0 20px;
+  line-height: 50px;
+}
+.div-material-3 {
+  width: 650px;
+  height: 350px;
+  background-color: #9fa9ff;
+  margin: 0 20px;
+  line-height: 50px;
+}
+.p-white {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.hp-white {
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.content-col {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.alternative {
-  display: flex;
-  width: 200px;
-}
-
-.button {
-  color: #fff;
-  background-color: #4256ff;
-  border: none;
-  padding: 15px 15px;
-  margin: 10px 50px;
-  cursor: pointer;
 }
